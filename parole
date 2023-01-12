@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+int main()
+{/*
+	int dog = 33, cat = 12;
+	if (dog > 0 && dog < 30) { cout << "dogs age is ok" << endl; }
+	else cout << "wrong dogs age" << endl;
+	if (cat > 0 && cat <= 20) {cout << "cats age is ok" << endl;}
+	else cout << "wrong cats age" << endl;*/
+
+	/*int atzime = 10, vecums = 34, augums = 150;
+	if (atzime > 0 && atzime < 10) { cout << "atzime is ok" << endl; }
+	else cout << "wrong atzime"<<endl;
+	if(vecums > 0 && vecums > 16) {cout << "vecums is ok" << endl;}
+	else cout << "wrong vecums"<<endl;
+	if(augums>0 && augums >= 150) {cout << "augums is ok" <<endl;}
+	else cout << "worong augums"<<endl;
+	return 0;
+	*/
+	
+	//int age = 12;
+	//string parole = "e1";
+	//string parolein;
+	//cin >> parolein;
+	//if (parolein == parole) { cout << "ok" << endl; }
+	//else cout << "wrong parole";
+	//return 0;
+	
+	int age = 12; string p = "0000", p1; 
+	string usename = "ki", username1;
+	cin >> username1;
+	cin >> p1;
+	cout << "------" << endl;
+	if (p == p1) { cout << "good" << endl << "the age is" << endl; }
+	else cout << "wrong";
+	if (usename == username1) { cout << "good" << endl << "the age is" << endl; }
+	else cout << "wrong";
+	return 0;
+
+
+}
+
+
+
+	
