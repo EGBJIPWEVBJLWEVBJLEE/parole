@@ -28,17 +28,22 @@ int main()
 	
 	int age = 12; string p = "0000", p1; 
 	string usename = "ki", username1;
+	cout << "login :  " << endl;
 	cin >> username1;
+	cout << "password :  ";
 	cin >> p1;
 	cout << "------" << endl;
-	if (p == p1) { cout << "good" << endl << "the age is" << endl; }
-	else cout << "wrong";
-	if (usename == username1) { cout << "good" << endl << "the age is" << endl; }
+	
+	if (usename == username1&&p==p1) { cout << "good" << endl << "the age is" << endl; }
 	else cout << "wrong";
 	return 0;
 
 
 }
+
+
+
+	
 
 
 
