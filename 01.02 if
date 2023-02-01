@@ -1,0 +1,84 @@
+#include <iostream>
+using namespace std;
+int main() {
+
+	/*int sk1;
+	int sk2;
+	cin >> sk1 >> sk2;
+	if (sk1 > sk2) {
+		cout << "sk1 ir maks un sk2 ir min" << endl;
+	}
+	else cout << "sk2 ir maks un sk1 ir min" << endl;
+
+	if (sk1 > 0) { cout << "sk1  ir pozitivi" << endl; }
+	else cout << "sk1 ir negativs" << endl;
+	if (sk2 > 0) { cout << "sk2 ir pozitivi" << endl; }
+	else cout << "sk2 ir negativs" << endl;
+
+	if (sk1 % 2 == 0) { cout << "sk1 ir pars" << endl; }
+	else cout << "sk1 ir nepars" << endl;
+	if (sk2 % 2 == 0) { cout << "sk2 ir pars" << endl; }
+	else cout << "sk2 ir nepars" << endl;*/
+
+
+	/*int mark;
+	cin >> mark;
+	if (mark >= 90) { cout << "grade A" << endl; }
+	else if (mark >= 80) { cout << "grade B" << endl;}
+	else if (mark >= 70) { cout << "grade C" << endl; }
+	else if (mark >= 60) { cout << "grade D" << endl; }
+	else if (mark >= 40) { cout << "grade E" << endl; }
+	else if (mark < 40) {
+		cout << "grade F" << endl;
+	}*/
+
+	/*int skt;
+	cin >> skt;
+	if (skt == 1) { cout << "pirmdiena"; }
+	if (skt == 2) { cout << " otrdiena"; }
+	if (skt == 3) { cout << "tresdiena"; }
+	if (skt == 4) { cout << "ceturtdiena"; }
+	if (skt == 5) { cout << "piektdiena"; }
+	if (skt == 6) { cout << "sestdiena"; }
+	if (skt == 7) { cout << "svetdiena"; }
+	if (skt < 1 || skt>7) { cout << "nav attiecigo dienu" << endl; }
+
+	int skt2;
+	cin >> skt2;
+	if (skt2 == 1) { cout << "janv"; }
+	if (skt2 == 2) { cout << "febr"; }
+	if (skt2 == 3) { cout << "march"; }
+	if (skt2 == 4) { cout << "april"; }
+	if (skt2 == 5) { cout << "may"; }
+	if (skt2 == 6) { cout << "june"; }
+	if (skt2 == 7) { cout << "july"; }
+	if (skt2 == 8) { cout << "august"; }
+	if (skt2 == 9) {
+		cout << "sept";
+	}
+	if (skt2 == 10) {
+		cout << "okt";
+	}
+	if (skt2 == 11) {
+		cout << "nov";
+	}
+	if (skt2 ==12){
+		cout << "decemb";
+	}
+	if (skt2 < 1 || skt2>12) {
+		cout << "nav attiecigo menesi" << endl;
+	}*/
+
+	int mal1;
+	int mal2;
+	int mal3;
+	cin >> mal1 >> mal2 >> mal3;
+	if (mal1 == mal2||mal1==mal3&& mal3 != mal2) {
+		cout << "vienadsanu trijsturis" << endl;
+	}
+	else if (mal1 == mal2 == mal3) {
+		cout << "vienadmalu trijsturis" << endl;
+	}
+	else cout << "nevienadmalu vai nevienadsanu trijsturis" << endl;
+	 return 0;
+}
