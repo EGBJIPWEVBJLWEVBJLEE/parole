@@ -1,0 +1,61 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{ 
+   /* string data;
+    do{ 
+    cout<<"enter data"<<endl;
+    cin>> data;
+    cout << data <<endl;
+ 
+    }while(data!="stop"); */
+    
+    
+    /* string parole ="109";
+    int i=0;
+    do{
+        i++;
+        cout <<"parole"<<endl;
+        cin>> parole;
+       if (parole == "109" && i<5) {cout<<"okay"<<endl;}
+    }while(i!=5);
+    cout<<"out of attempts"; */
+     
+     
+     /* int i=1001;
+     do{
+         i--;
+         cout<< i << " " << i-5 <<endl;
+     }while(i!=5); */
+     
+     
+     /* int t;
+     cin>> t;
+     if(t < 36) {cout <<"Temperatura ir negativa"<< endl;}
+     else if(t >= 37.5) {cout<< "Tenperatura ir augsta"<<endl;}
+     else if (t == 36.6 || t <= 37) {cout << "Temperatura it neitrala"<< endl;} */
+     
+    /* cout<< "Cik ir pulkstenis?"<<endl;
+     int time;
+     cin >> time;
+     if(time >= 1 && time <=11 ) {cout<< "AM"<<endl;}
+    else if (time >= 12 && time <= 24) {cout<< "PM"<<endl;} */
+     
+
+    int sk1;
+    int sk2;
+    int sk3;
+    cin >> sk1;
+    cin >> sk2;
+    cin >> sk3;
+    if(sk1 > sk2 && sk2 > sk3){cout<< "sk1 ir maks un sk3 ir min"<<endl;}
+    else if (sk2 > sk1 && sk1 > sk3){cout<< "sk2 ir maks un sk3 ir min"<<endl;}
+    else if (sk3 > sk1 && sk1 > sk2){cout<< "sk3 ir maks un sk2 ir min"<<endl;}
+    else if (sk3 > sk2 && sk2 > sk1){cout<< "sk3 ir maks un sk2 ir min"<<endl;}
+    else if (sk1 > sk3 && sk3 > sk2){cout<< "sk1 ir maks un sk2 ir min"<<endl;}
+    else if (sk2 > sk3 && sk3 > sk1){cout<< "sk2 ir maks un sk1 ir min"<<endl;}
+     
+     return 0;
+}
