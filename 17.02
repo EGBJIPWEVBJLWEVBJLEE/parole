@@ -1,0 +1,52 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+int main() {
+	/*vector <int> sk{ 1,2,3,1,2 };
+	if (sk[0] == 1) cout << "1.vieta ir 1"<<endl;
+	if (sk[1] == 1) cout << "2.vieta ir 1"<<endl;
+	if (sk[2] == 1)cout << "3.vieta ir 1"<<endl;
+	if (sk[3] == 1)cout << "4.vieta ir 1"<<endl;
+	if (sk[4] == 1) cout << "5.vieta ir 1"<<endl;
+	
+    if (sk[0] == 4) cout << "1.vieta ir 4" << endl;
+	if (sk[1] == 4) cout << "2.vieta ir 4" << endl;
+	if (sk[2] == 4)cout << "3.vieta ir 4" << endl;
+	if (sk[3] == 4)cout << "4.vieta ir 4" << endl;
+	if (sk[4] == 4) cout << "5.vieta ir 4" << endl;
+	else cout << "there is no 4" << endl;*/
+
+	/*int a;
+	cin >> a;
+	if (a > 0 && a < 13)cout << a << "AM";
+	if (a > 12 && a < 25)cout << a - 12 << "PM";*/
+
+	/*vector <string> c{ "USA","UK","China","India","Canada","Australia" };
+	vector <string> n{ "+1","+44","+86","+91","+1","+61" };
+	string num, cod;
+	cin >> num >> cod;
+	cout << "1. tel num, 2. kods" << endl;
+	if (n[0] == cod)cout << c[0] << endl;
+	if (n[1] == cod)cout << c[1] << endl;
+	if (n[2] == cod)cout << c[2] << endl;
+	if (n[3] == cod)cout << c[3] <<endl;
+	if (n[4] == cod)cout << c[4] << endl;
+	if (n[5] == cod)cout << c[5] << endl;
+	cout << cod << num << endl;
+
+	if (n[0] != cod && n[1] != cod&& n[2]!=cod&& n[3]!=cod&& n[4]!=cod&& n[5]!=cod)cout << "nav valsti programa";*/
+
+	/*vector <int> atzime{ 3,8,7,4 };
+	vector <string> name{ "Anna","Antons","Vlad","Artemjis" };
+	cout << "atzime:" << endl;
+	int a;
+	cin >> a;
+	cout << "name:" << endl;
+	if (atzime[0] == a)cout << name[0] << endl;
+	if (atzime[1] == a)cout << name[1] << endl;
+	if (atzime[2] == a)cout << name[2] << endl;
+	if (atzime[3] == a)cout << name[3] << endl;
+	if (atzime[0] != a && atzime[1] != a && atzime[2] != a && atzime[3] != a)cout << "nav data";*/
+
+	return 0;
+}
